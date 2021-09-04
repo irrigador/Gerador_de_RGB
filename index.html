@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaja</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <div id="titulo" class="titulo">
+            Gerador de Código RGB
+        </div>
+        <div id="cor" onclick="mudacor()">
+            Clique
+        </div>
+        <div class="codigo" id="CodigoRgb"></div>
+    </div>
+    <div class="blocoInput">
+        <div class="bloco">
+            <input type="number" class="css-input" name="red" id="Red" value="250" placeholder=""/>
+            <label for="text">Red</label>
+        </div>
+        <div class="bloco">
+            <input type="number" class="css-input" name="green" id="Green" value="100"/>
+            <label for="text">Green</label>
+        </div>
+        <div class="bloco">
+            <input type="number" class="css-input" name="blue" id="Blue" value="200"/>
+            <label for="text">Blue</label>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
